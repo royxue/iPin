@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150606061828) do
+ActiveRecord::Schema.define(version: 20150606065223) do
 
   create_table "events", force: true do |t|
     t.datetime "created_time"
@@ -22,6 +22,15 @@ ActiveRecord::Schema.define(version: 20150606061828) do
     t.float    "latitude",     limit: 24
     t.float    "longitude",    limit: 24
   end
+
+  create_table "photos", force: true do |t|
+    t.string   "url"
+    t.integer  "event_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "photos", ["event_id"], name: "index_photos_on_event_id", using: :btree
 
   create_table "users", force: true do |t|
     t.string   "email",                  default: "", null: false
