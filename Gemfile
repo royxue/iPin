@@ -37,4 +37,11 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
+gem 'devise'
+gem 'omniauth-wechat-oauth2'
+gem 'baidumap'
+gem 'rmagick'
+gem 'exception_notification', :github => 'smartinez87/exception_notification'
+gem 'font-awesome-rails'
+gem 'semantic-ui-sass', github: 'doabit/semantic-ui-sass', branch: 'v1.0beta'
+gem 'carrierwave'
