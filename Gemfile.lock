@@ -74,6 +74,7 @@ GEM
       railties (>= 3.2, < 5.0)
     font-awesome-sass (4.2.2)
       sass (~> 3.2)
+    geocoder (1.2.8)
     hashie (3.4.2)
     hike (1.2.3)
     httparty (0.13.5)
@@ -179,6 +180,7 @@ DEPENDENCIES
   exception_notification!
   font-awesome-rails
   font-awesome-sass
+  geocoder
   httparty
   jbuilder (~> 2.0)
   jquery-rails
