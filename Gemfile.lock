@@ -188,7 +188,9 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   mysql2
+  omniauth
   omniauth-github
+  omniauth-oauth2
   omniauth-wechat-oauth2
   rails (= 4.1.8)
   rmagick
