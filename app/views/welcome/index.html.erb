@@ -34,9 +34,6 @@
 
           <p class="ui centered lead">Where you were before<br/>And where you wanna be in the future</p>
           <%= link_to 'Github Login', user_omniauth_authorize_path(:github), class: 'large basic inverted ui button' %>
-          <div class="ui centerted image">
-            <img src="images/banner.png"/>
-          </div>
         </div>
       </div>
     </div>
@@ -49,41 +46,39 @@
         <div class="ui three column center aligned stackable divided grid">
           <div class="column column-feature">
             <div class="ui icon header">
-              <i class="flaticon-connecting icon"></i>
-              Courses
+              <%= icon('globe',nil,{class:'icon'}) %>
+              Travel
             </div>
-            <p>Take your kitty to a cat-ducation course and learn how to treat her well.</p>
-
+            <p>Travel with your love.</p>
             <p>
               <a class="ui button" href="#">
-                Learn
+                Book tickcet
               </a>
             </p>
           </div>
           <div class="column column-feature">
             <div class="ui icon header">
-              <i class="flaticon-calendar icon"></i>
-              Library
+              <%= icon('map-marker',nil,{class:'icon'}) %>
+              Pin
             </div>
-            <p>Dig through our cat library to found out amazing things you can do with your kitty.</p>
+            <p>Pin your favorite place</p>
 
             <p>
-              <a class="ui green right labeled icon button" href="#">
-                Research
-                <i class="right flaticon-move icon"></i>
+              <a class="ui green button" href="#">
+                Start to Pin
               </a>
             </p>
           </div>
           <div class="column column-feature">
             <div class="ui icon header">
-              <i class="flaticon-speech icon"></i>
-              Community
+              <%= icon('fire',nil,{class:'icon'}) %>
+              Kill
             </div>
-            <p>Get feedback on your cat from a community of loving pet owners on our online...</p>
+            <p>Kill the single dogs</p>
 
             <p>
               <a class="ui button" href="#">
-                Share
+                Start to Kill
               </a>
             </p>
           </div>
@@ -96,126 +91,126 @@
   </div>
 
 
-  <div class="ui recent-works vertical segment">
-    <div class="ui very relaxed stackable centered page grid">
-      <div class="row">
-        <div class="eight wide centered column">
-          <h1 class="center aligned ui inverted header">
-            Recent Works
-          </h1>
+  <!--<div class="ui recent-works vertical segment">-->
+    <!--<div class="ui very relaxed stackable centered page grid">-->
+      <!--<div class="row">-->
+        <!--<div class="eight wide centered column">-->
+          <!--<h1 class="center aligned ui inverted header">-->
+            <!--Recent Works-->
+          <!--</h1>-->
 
-          <div class="ui horizontal divider"><i class="white flaticon-camera icon"></i></div>
-          <p class="ui centered lead">Checkout Our Recently Completed Works<br>you will be amazed!.</p>
-        </div>
-      </div>
-      <div class="fourteen wide column">
-        <div class="ui three column aligned stackable divided grid">
-
-
-          <div class="column">
-
-            <div class="ui card" data-html="<div class='header'>User Rating</div><div class='content'><div class='ui star rating'><i class='active icon'></i><i class='active icon'></i><i class='active icon'></i><i class='icon'></i><i class='icon'></i></div></div>">
-              <div class="image">
-                <img src="images/totoro-horizontal.jpg">
-              </div>
-              <div class="content">
-                <div class="header">My Neighbor Totoro</div>
-                <div class="description">
-                  Two sisters move to the country with their father in order to be closer to their hospitalized mother,
-                  and discover the surrounding trees are inhabited by magical spirits.
-                </div>
-              </div>
-              <div class="ui two bottom attached buttons">
-                <div class="ui button">
-                  <i class="flaticon-plus icon"></i>
-                  Queue
-                </div>
-                <div class="ui pink button">
-                  <i class="flaticon-play icon"></i>
-                  Watch
-                </div>
-              </div>
-            </div>
-
-          </div>
+          <!--<div class="ui horizontal divider"><i class="white flaticon-camera icon"></i></div>-->
+          <!--<p class="ui centered lead">Checkout Our Recently Completed Works<br>you will be amazed!.</p>-->
+        <!--</div>-->
+      <!--</div>-->
+      <!--<div class="fourteen wide column">-->
+        <!--<div class="ui three column aligned stackable divided grid">-->
 
 
-          <div class="column">
+          <!--<div class="column">-->
 
-            <div class="ui card" data-html="<div class='header'>User Rating</div><div class='content'><div class='ui star rating'><i class='active icon'></i><i class='active icon'></i><i class='active icon'></i><i class='icon'></i><i class='icon'></i></div></div>">
-              <div class="image">
-                <img src="images/totoro-horizontal.jpg">
-              </div>
-              <div class="content">
-                <div class="header">My Neighbor Totoro</div>
-                <div class="description">
-                  Two sisters move to the country with their father in order to be closer to their hospitalized mother,
-                  and discover the surrounding trees are inhabited by magical spirits.
-                </div>
-              </div>
-              <div class="ui two bottom attached buttons">
-                <div class="ui button">
-                  <i class="flaticon-plus icon"></i>
-                  Queue
-                </div>
-                <div class="ui pink button">
-                  <i class="flaticon-play icon"></i>
-                  Watch
-                </div>
-              </div>
-            </div>
+            <!--<div class="ui card" data-html="<div class='header'>User Rating</div><div class='content'><div class='ui star rating'><i class='active icon'></i><i class='active icon'></i><i class='active icon'></i><i class='icon'></i><i class='icon'></i></div></div>">-->
+              <!--<div class="image">-->
+                <!--<img src="images/totoro-horizontal.jpg">-->
+              <!--</div>-->
+              <!--<div class="content">-->
+                <!--<div class="header">My Neighbor Totoro</div>-->
+                <!--<div class="description">-->
+                  <!--Two sisters move to the country with their father in order to be closer to their hospitalized mother,-->
+                  <!--and discover the surrounding trees are inhabited by magical spirits.-->
+                <!--</div>-->
+              <!--</div>-->
+              <!--<div class="ui two bottom attached buttons">-->
+                <!--<div class="ui button">-->
+                  <!--<i class="flaticon-plus icon"></i>-->
+                  <!--Queue-->
+                <!--</div>-->
+                <!--<div class="ui pink button">-->
+                  <!--<i class="flaticon-play icon"></i>-->
+                  <!--Watch-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</div>-->
 
-          </div>
-
-
-          <div class="column">
-
-            <div class="ui card" data-html="<div class='header'>User Rating</div><div class='content'><div class='ui star rating'><i class='active icon'></i><i class='active icon'></i><i class='active icon'></i><i class='icon'></i><i class='icon'></i></div></div>">
-              <div class="image">
-                <img src="images/totoro-horizontal.jpg">
-              </div>
-              <div class="content">
-                <div class="header">My Neighbor Totoro</div>
-                <div class="description">
-                  Two sisters move to the country with their father in order to be closer to their hospitalized mother,
-                  and discover the surrounding trees are inhabited by magical spirits.
-                </div>
-              </div>
-              <div class="ui two bottom attached buttons">
-                <div class="ui button">
-                  <i class="flaticon-plus icon"></i>
-                  Queue
-                </div>
-                <div class="ui pink button">
-                  <i class="flaticon-play icon"></i>
-                  Watch
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+          <!--</div>-->
 
 
-  <div class="ui inverted footer vertical segment center">
-    <div class="ui stackable center aligned page grid">
-      <div class="four column row">
+          <!--<div class="column">-->
 
-        <div class="column">
-          <h5 class="ui inverted header">Courses</h5>
+            <!--<div class="ui card" data-html="<div class='header'>User Rating</div><div class='content'><div class='ui star rating'><i class='active icon'></i><i class='active icon'></i><i class='active icon'></i><i class='icon'></i><i class='icon'></i></div></div>">-->
+              <!--<div class="image">-->
+                <!--<img src="images/totoro-horizontal.jpg">-->
+              <!--</div>-->
+              <!--<div class="content">-->
+                <!--<div class="header">My Neighbor Totoro</div>-->
+                <!--<div class="description">-->
+                  <!--Two sisters move to the country with their father in order to be closer to their hospitalized mother,-->
+                  <!--and discover the surrounding trees are inhabited by magical spirits.-->
+                <!--</div>-->
+              <!--</div>-->
+              <!--<div class="ui two bottom attached buttons">-->
+                <!--<div class="ui button">-->
+                  <!--<i class="flaticon-plus icon"></i>-->
+                  <!--Queue-->
+                <!--</div>-->
+                <!--<div class="ui pink button">-->
+                  <!--<i class="flaticon-play icon"></i>-->
+                  <!--Watch-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</div>-->
 
-          <div class="ui inverted link list">
-            <a class="item">Registration</a>
-            <a class="item">Course Calendar</a>
-            <a class="item">Professors</a>
-          </div>
-        </div>
-      </div>
+          <!--</div>-->
 
 
-    </div>
-  </div>
+          <!--<div class="column">-->
+
+            <!--<div class="ui card" data-html="<div class='header'>User Rating</div><div class='content'><div class='ui star rating'><i class='active icon'></i><i class='active icon'></i><i class='active icon'></i><i class='icon'></i><i class='icon'></i></div></div>">-->
+              <!--<div class="image">-->
+                <!--<img src="images/totoro-horizontal.jpg">-->
+              <!--</div>-->
+              <!--<div class="content">-->
+                <!--<div class="header">My Neighbor Totoro</div>-->
+                <!--<div class="description">-->
+                  <!--Two sisters move to the country with their father in order to be closer to their hospitalized mother,-->
+                  <!--and discover the surrounding trees are inhabited by magical spirits.-->
+                <!--</div>-->
+              <!--</div>-->
+              <!--<div class="ui two bottom attached buttons">-->
+                <!--<div class="ui button">-->
+                  <!--<i class="flaticon-plus icon"></i>-->
+                  <!--Queue-->
+                <!--</div>-->
+                <!--<div class="ui pink button">-->
+                  <!--<i class="flaticon-play icon"></i>-->
+                  <!--Watch-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</div>-->
+
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</div>-->
+
+
+  <!--<div class="ui inverted footer vertical segment center">-->
+    <!--<div class="ui stackable center aligned page grid">-->
+      <!--<div class="four column row">-->
+
+        <!--<div class="column">-->
+          <!--<h5 class="ui inverted header">Courses</h5>-->
+
+          <!--<div class="ui inverted link list">-->
+            <!--<a class="item">Registration</a>-->
+            <!--<a class="item">Course Calendar</a>-->
+            <!--<a class="item">Professors</a>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+
+
+    <!--</div>-->
+  <!--</div>-->
 </div>
